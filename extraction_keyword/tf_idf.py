@@ -22,6 +22,9 @@ terms = tfidf_vectorizer.get_feature_names_out()
 # 単語毎のtfidf値配列：TF-IDF 行列 (numpy の ndarray 形式で取得される)
 tfidfs = tfidf_matrix.toarray()
 
+print(terms)
+print(tfidfs)
+
 index1 = np.argmax(tfidfs[0])
 index2 = np.argmax(tfidfs[1])
 
