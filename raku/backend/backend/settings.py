@@ -126,7 +126,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-OPENAI_APIKEY = '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'
+# OPENAI_APIKEY = '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'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # ReactなどのフロントエンドのURLを追加

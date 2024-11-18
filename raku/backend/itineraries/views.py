@@ -19,7 +19,7 @@ from django.conf import settings
 
 class ChatGPTAPIView(APIView):
     
-    openai.api_key = settings.OPENAI_APIKEY
+    # openai.api_key = settings.OPENAI_APIKEY
     def post(self, request):
         try:
             # フロントエンドからのデータを取得
